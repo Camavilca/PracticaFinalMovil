@@ -1,55 +1,10 @@
 {
   "project_info": {
-    "project_number": "928409718444",
-    "firebase_url": "https://final-f4735.firebaseio.com",
-    "project_id": "final-f4735",
-    "storage_bucket": "final-f4735.appspot.com"
+    "project_number": "656797685891",
+    "firebase_url": "https://final-a541b.firebaseio.com",
+    "project_id": "final-a541b",
+    "storage_bucket": "final-a541b.appspot.com"
   },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:928409718444:android:5ee202383bcc1980",
-        "android_client_info": {
-          "package_name": "camavilca.orlando.finalexamen"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "928409718444-is1v9egihoqn6prvd9q6hb51fgeql1d2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "camavilca.orlando.finalexamen",
-            "certificate_hash": "93d039e856cc6e73233dfe9de5aa7c6ba41b9d09"
-          }
-        },
-        {
-          "client_id": "928409718444-8k3puefgbm2ijbt8uotjtcu68sa243lg.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAMYoGAy0Hd4oldxr5Se1Sy8kDt9QtEkUE"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "928409718444-8k3puefgbm2ijbt8uotjtcu68sa243lg.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    }
-  ],
+  "client": [],
   "configuration_version": "1"
 }
