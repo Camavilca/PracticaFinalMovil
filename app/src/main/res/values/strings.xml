@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FinalExamen</string>
+    <string name="facebook_app_id">782143568650347</string>
+    <string name="fb_login_protocol_scheme">fb782143568650347</string>
+</resources>
