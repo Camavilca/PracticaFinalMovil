@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/fondo"
+    android:scaleType="centerCrop"
     android:gravity="center">
 
     <ProgressBar
@@ -18,15 +20,17 @@
         android:id="@+id/login_panel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/shapes"
         android:orientation="vertical"
         android:padding="32dp">
 
         <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
             android:layout_marginBottom="16dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/ubicacion" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +71,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Sign In"
+                android:text="Iniciar Sesión"
                 android:textStyle="bold"
                 android:background="@color/colorPrimary"
                 android:textColor="@android:color/white"
@@ -77,28 +81,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Register"
+                android:text="Registrarse"
                 android:textStyle="bold"
-                android:background="@color/colorPrimary"
+                android:background="#0DC8F7"
                 android:textColor="@android:color/white"
                 android:onClick="callRegister"/>
-
-            <com.google.android.gms.common.SignInButton
-                android:id="@+id/sign_in_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
-            <com.facebook.login.widget.LoginButton
-                xmlns:facebook="http://schemas.android.com/apk/res-auto"
-                android:id="@+id/facebook_signin_button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:paddingTop="12dp"
-                android:paddingBottom="12dp"
-                facebook:com_facebook_login_text="Ingresar con Facebook"
-                facebook:com_facebook_logout_text="Conectando..."/>
-
         </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>

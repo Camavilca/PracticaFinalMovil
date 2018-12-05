@@ -40,6 +40,12 @@ dependencies {
     implementation 'com.android.support:customtabs:27.1.1'
     implementation 'com.google.firebase:firebase-database:16.0.1'
 
+    implementation 'com.android.support:customtabs:27.0.0'
+
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
 
 
     implementation 'com.google.firebase:firebase-messaging:11.8.0'

@@ -46,19 +46,14 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         progressBar = (ProgressBar)findViewById(R.id.progressbar);
         loginPanel = findViewById(R.id.login_panel);
-
         // Init FirebaseAuth
         initFirebaseAuth();
-
         // Init GoogleSignIn
-        initGoogleSignIn();
-
+        //initGoogleSignIn();
         // Init FirebaseAuthStateListener
         initFirebaseAuthStateListener();
         // Init FacebookSignIn
-        initFacebookSignIn();
-
-
+       // initFacebookSignIn();
     }
     private FirebaseAuth mAuth;
 
